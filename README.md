@@ -1,4 +1,4 @@
-# 🧠 Synerva Cleanroom-AI  
+#  Synerva Cleanroom-AI  
 **AI-Driven IoT Platform for Cleanroom Monitoring and Energy Optimization**
 
 Synerva Cleanroom-AI is a full-stack system for **real-time cleanroom environmental monitoring, contamination prediction, and HVAC energy optimization**.  
@@ -6,7 +6,7 @@ It integrates **industrial-grade IoT sensors**, **Kafka/InfluxDB data pipelines*
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 Modern semiconductor and precision-manufacturing cleanrooms consume enormous energy to maintain air purity and temperature stability.  
 Synerva Cleanroom-AI aims to **predict contamination events** and **reduce HVAC energy usage** without compromising ISO 14644 standards.
@@ -19,7 +19,7 @@ Synerva Cleanroom-AI aims to **predict contamination events** and **reduce HVAC 
 
 ---
 
-## 🧩 System Architecture
+##  System Architecture
 
 ```text
 [ NCD Sensors ] 
@@ -45,7 +45,7 @@ Database	InfluxDB 2.0	Time-series storage
 Analytics / AI	Python (NumPy, Pandas, TensorFlow, PyTorch)	LSTM + Linear models
 Visualization	Grafana	Live metrics dashboard
 Deployment	Docker / Compose / ECS	Cloud execution
-⚙️ Setup & Installation
+ Setup & Installation
 Prerequisites
 
 Python ≥ 3.10
@@ -56,28 +56,28 @@ MQTT broker (Mosquitto / EMQX)
 
 Optional: Docker & Docker Compose
 
-1️⃣ Clone the Repository
+ Clone the Repository
 git clone https://github.com/Joswi10n/Synerva.ai.git
 cd Synerva.ai
 
-2️⃣ Create Environment
+ Create Environment
 python -m venv venv
 venv\Scripts\activate  # (Windows)
 # or
 source venv/bin/activate  # (Linux/Mac)
 pip install -r requirements.txt
 
-3️⃣ Configure Environment
+ Configure Environment
 
 Copy and update the example configuration:
 
 cp config/config.example.env .env
 
-4️⃣ Run Data Ingestion / Prediction
+ Run Data Ingestion / Prediction
 python input_to_influx.py          # Stream sensor data into InfluxDB
 python predict_once.py --help      # Run one-time prediction
 
-📊 Live Dashboard
+ Live Dashboard
 
 Once data is ingested into InfluxDB, connect Grafana to visualize:
 
@@ -89,7 +89,7 @@ HVAC load and contamination trends
 
 Zone-wise differential pressure stability
 
-🧠 Model Training
+ Model Training
 
 Offline Training:
 train_and_stream.py — trains baseline regression/LSTM models.
@@ -99,7 +99,7 @@ train_online.py — updates models with streaming data.
 
 Model artifacts (.keras, .pkl, .npy) are stored locally in models/ (ignored by git).
 
-🛡️ Data & Security
+ Data & Security
 
 .env holds InfluxDB / MQTT credentials (never committed).
 
@@ -109,7 +109,7 @@ Repository adheres to clean separation of code vs data vs models.
 
 Supports future API token rotation and secure BMS integration.
 
-🧰 Tech Stack
+ Tech Stack
 Category	Technology
 Programming	Python 3.10 + TensorFlow + PyTorch
 Data Pipeline	Kafka / MQTT / InfluxDB 2.0
