@@ -1,0 +1,1015 @@
+
+    Directory: C:\Users\Joswin\cleanroom-ai
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          23/10/2025  8:50 AM                __pycache__
+d----          13/11/2025  2:19 PM                .repo_audit
+d----          21/06/2025  7:55 PM                .venv
+d----          21/06/2025  5:41 PM                cleanroom_vision
+d----          01/06/2025  1:42 AM                influx2
+d----          31/05/2025  5:27 AM                influxdb2
+d----          20/06/2025  1:44 PM                kt_dir
+d----          30/07/2025  2:16 PM                logs
+d----          29/05/2025 12:55 PM                schema
+d----          16/10/2025  4:41 AM                venv
+-a---          16/10/2025  5:33 PM            248 .env
+-a---          04/06/2025  7:05 PM              0 {monitoring
+-a---          21/06/2025  6:37 PM              0 =1.10.2
+-a---          21/06/2025  6:37 PM              0 =1.35.0
+-a---          21/06/2025  6:37 PM              0 =2.0.2
+-a---          16/10/2025  2:52 AM             33 baseline_mae_Z1.json
+-a---          16/10/2025  2:53 AM             33 baseline_mae_Z2.json
+-a---          16/10/2025  2:55 AM             33 baseline_mae_Z3.json
+-a---          16/10/2025  2:55 AM             33 baseline_mae_Z4.json
+-a---          12/06/2025 11:32 AM        3157367 best_lstm_model_deeper.keras
+-a---          13/06/2025 11:16 AM        1500267 best_lstm_model_final.keras
+-a---          23/10/2025  8:54 AM        6284890 best_lstm_model.keras
+-a---          30/07/2025  2:25 PM         698916 best_lstm_NCD1.keras
+-a---          30/07/2025  2:25 PM         693144 best_lstm_NCD1.weights.h5
+-a---          30/07/2025  2:25 PM         698956 best_lstm_NCD10.keras
+-a---          30/07/2025  2:25 PM         693144 best_lstm_NCD10.weights.h5
+-a---          30/07/2025  2:25 PM         698956 best_lstm_NCD11.keras
+-a---          30/07/2025  2:25 PM         693144 best_lstm_NCD11.weights.h5
+-a---          30/07/2025  2:25 PM         698956 best_lstm_NCD12.keras
+-a---          30/07/2025  2:25 PM         693144 best_lstm_NCD12.weights.h5
+-a---          30/07/2025  2:25 PM         698956 best_lstm_NCD13.keras
+-a---          30/07/2025  2:25 PM         693144 best_lstm_NCD13.weights.h5
+-a---          30/07/2025  2:25 PM         698969 best_lstm_NCD14.keras
+-a---          30/07/2025  2:25 PM         693144 best_lstm_NCD14.weights.h5
+-a---          30/07/2025  2:25 PM         698969 best_lstm_NCD15.keras
+-a---          30/07/2025  2:25 PM         693144 best_lstm_NCD15.weights.h5
+-a---          30/07/2025  2:25 PM         698969 best_lstm_NCD16.keras
+-a---          30/07/2025  2:25 PM         693144 best_lstm_NCD16.weights.h5
+-a---          30/07/2025  2:25 PM         698969 best_lstm_NCD17.keras
+-a---          30/07/2025  2:25 PM         693144 best_lstm_NCD17.weights.h5
+-a---          30/07/2025  2:25 PM         698969 best_lstm_NCD18.keras
+-a---          30/07/2025  2:25 PM         693144 best_lstm_NCD18.weights.h5
+-a---          30/07/2025  2:25 PM         698983 best_lstm_NCD19.keras
+-a---          30/07/2025  2:25 PM         693144 best_lstm_NCD19.weights.h5
+-a---          30/07/2025  2:26 PM         698983 best_lstm_NCD2.keras
+-a---          30/07/2025  2:26 PM         693144 best_lstm_NCD2.weights.h5
+-a---          30/07/2025  2:26 PM         698983 best_lstm_NCD20.keras
+-a---          30/07/2025  2:26 PM         693144 best_lstm_NCD20.weights.h5
+-a---          30/07/2025  2:26 PM         698983 best_lstm_NCD21.keras
+-a---          30/07/2025  2:26 PM         693144 best_lstm_NCD21.weights.h5
+-a---          30/07/2025  2:26 PM         698983 best_lstm_NCD22.keras
+-a---          30/07/2025  2:26 PM         693144 best_lstm_NCD22.weights.h5
+-a---          30/07/2025  2:26 PM         698983 best_lstm_NCD23.keras
+-a---          30/07/2025  2:26 PM         693144 best_lstm_NCD23.weights.h5
+-a---          30/07/2025  2:26 PM         698983 best_lstm_NCD24.keras
+-a---          30/07/2025  2:26 PM         693144 best_lstm_NCD24.weights.h5
+-a---          30/07/2025  2:26 PM         698983 best_lstm_NCD25.keras
+-a---          30/07/2025  2:26 PM         693144 best_lstm_NCD25.weights.h5
+-a---          30/07/2025  2:26 PM         698983 best_lstm_NCD26.keras
+-a---          30/07/2025  2:26 PM         693144 best_lstm_NCD26.weights.h5
+-a---          30/07/2025  2:26 PM         698983 best_lstm_NCD27.keras
+-a---          30/07/2025  2:26 PM         693144 best_lstm_NCD27.weights.h5
+-a---          30/07/2025  2:26 PM         698983 best_lstm_NCD28.keras
+-a---          30/07/2025  2:26 PM         693144 best_lstm_NCD28.weights.h5
+-a---          30/07/2025  2:26 PM         698983 best_lstm_NCD29.keras
+-a---          30/07/2025  2:26 PM         693144 best_lstm_NCD29.weights.h5
+-a---          30/07/2025  2:26 PM         698983 best_lstm_NCD3.keras
+-a---          30/07/2025  2:26 PM         693144 best_lstm_NCD3.weights.h5
+-a---          30/07/2025  2:26 PM         698983 best_lstm_NCD30.keras
+-a---          30/07/2025  2:26 PM         693144 best_lstm_NCD30.weights.h5
+-a---          30/07/2025  2:27 PM         698983 best_lstm_NCD31.keras
+-a---          30/07/2025  2:26 PM         693144 best_lstm_NCD31.weights.h5
+-a---          30/07/2025  2:27 PM         698983 best_lstm_NCD32.keras
+-a---          30/07/2025  2:27 PM         693144 best_lstm_NCD32.weights.h5
+-a---          30/07/2025  2:27 PM         698983 best_lstm_NCD33.keras
+-a---          30/07/2025  2:27 PM         693144 best_lstm_NCD33.weights.h5
+-a---          30/07/2025  2:27 PM         698983 best_lstm_NCD34.keras
+-a---          30/07/2025  2:27 PM         693144 best_lstm_NCD34.weights.h5
+-a---          30/07/2025  2:27 PM         698983 best_lstm_NCD35.keras
+-a---          30/07/2025  2:27 PM         693144 best_lstm_NCD35.weights.h5
+-a---          30/07/2025  2:27 PM         698983 best_lstm_NCD36.keras
+-a---          30/07/2025  2:27 PM         693144 best_lstm_NCD36.weights.h5
+-a---          30/07/2025  2:27 PM         698983 best_lstm_NCD37.keras
+-a---          30/07/2025  2:27 PM         693144 best_lstm_NCD37.weights.h5
+-a---          30/07/2025  2:27 PM         698983 best_lstm_NCD38.keras
+-a---          30/07/2025  2:27 PM         693144 best_lstm_NCD38.weights.h5
+-a---          30/07/2025  2:27 PM         698983 best_lstm_NCD39.keras
+-a---          30/07/2025  2:27 PM         693144 best_lstm_NCD39.weights.h5
+-a---          30/07/2025  2:27 PM         698983 best_lstm_NCD4.keras
+-a---          30/07/2025  2:27 PM         693144 best_lstm_NCD4.weights.h5
+-a---          30/07/2025  2:27 PM         698983 best_lstm_NCD40.keras
+-a---          30/07/2025  2:27 PM         693144 best_lstm_NCD40.weights.h5
+-a---          30/07/2025  2:27 PM         698983 best_lstm_NCD41.keras
+-a---          30/07/2025  2:27 PM         693144 best_lstm_NCD41.weights.h5
+-a---          30/07/2025  2:27 PM         698983 best_lstm_NCD42.keras
+-a---          30/07/2025  2:27 PM         693144 best_lstm_NCD42.weights.h5
+-a---          30/07/2025  2:28 PM         698983 best_lstm_NCD43.keras
+-a---          30/07/2025  2:28 PM         693144 best_lstm_NCD43.weights.h5
+-a---          30/07/2025  2:28 PM         698983 best_lstm_NCD44.keras
+-a---          30/07/2025  2:28 PM         693144 best_lstm_NCD44.weights.h5
+-a---          30/07/2025  2:28 PM         698983 best_lstm_NCD45.keras
+-a---          30/07/2025  2:28 PM         693144 best_lstm_NCD45.weights.h5
+-a---          30/07/2025  2:28 PM         698983 best_lstm_NCD46.keras
+-a---          30/07/2025  2:28 PM         693144 best_lstm_NCD46.weights.h5
+-a---          30/07/2025  2:28 PM         698983 best_lstm_NCD5.keras
+-a---          30/07/2025  2:28 PM         693144 best_lstm_NCD5.weights.h5
+-a---          30/07/2025  2:28 PM         698983 best_lstm_NCD6.keras
+-a---          30/07/2025  2:28 PM         693144 best_lstm_NCD6.weights.h5
+-a---          30/07/2025  2:28 PM         698983 best_lstm_NCD7.keras
+-a---          30/07/2025  2:28 PM         693144 best_lstm_NCD7.weights.h5
+-a---          30/07/2025  2:28 PM         698983 best_lstm_NCD8.keras
+-a---          30/07/2025  2:28 PM         693144 best_lstm_NCD8.weights.h5
+-a---          30/07/2025  2:28 PM         698983 best_lstm_NCD9.keras
+-a---          30/07/2025  2:28 PM         693144 best_lstm_NCD9.weights.h5
+-a---          16/10/2025  2:52 AM        1062574 best_lstm_Z1.keras
+-a---          16/10/2025  2:52 AM        1056408 best_lstm_Z1.weights.h5
+-a---          16/10/2025  2:53 AM        1062605 best_lstm_Z2.keras
+-a---          16/10/2025  2:53 AM        1056408 best_lstm_Z2.weights.h5
+-a---          16/10/2025  2:55 AM        1508408 best_lstm_Z3.keras
+-a---          16/10/2025  2:54 AM        1502616 best_lstm_Z3.weights.h5
+-a---          16/10/2025  2:55 AM         884398 best_lstm_Z4.keras
+-a---          16/10/2025  2:55 AM         878744 best_lstm_Z4.weights.h5
+-a---          03/06/2025  1:13 AM         275849 best_lstm.keras
+-a---          20/06/2025  2:42 PM           9460 cleanroom_zone_lstm_advanced.py
+-a---          04/07/2025  9:10 PM           2984 decode_lstm_preds.py
+-a---          30/05/2025 10:33 PM           3197 decode_predictions.py
+---hs          23/10/2025  8:27 AM             48 desktop.ini
+-a---          03/10/2025  4:43 PM           2029 docker-compose.yml
+-a---          04/06/2025  4:12 PM           4393 error_prediction.py
+-a---          01/06/2025  4:44 AM           4904 evaluate_lstm.py
+-a---          12/06/2025  9:59 AM           5734 evaluate_model.py
+-a---          04/08/2025 10:49 PM            613 export_sensor.py
+-a---          16/10/2025  2:52 AM            278 feature_columns_Z1.txt
+-a---          16/10/2025  2:53 AM            278 feature_columns_Z2.txt
+-a---          16/10/2025  2:55 AM            278 feature_columns_Z3.txt
+-a---          16/10/2025  2:55 AM            278 feature_columns_Z4.txt
+-a---          23/10/2025  8:54 AM            755 feature_columns.txt
+-a---          23/10/2025  8:49 AM           2283 influx_writer.py
+-a---          04/09/2025  1:53 PM           2575 influxdb_driver.py
+-a---          16/10/2025  5:20 PM            303 init_env.ps1
+-a---          04/06/2025  9:11 PM           3280 input_to_influx.py
+-a---          03/10/2025  6:38 PM           3738 kafka_to_influx.py
+-a---          21/06/2025  6:49 PM          25241 known_faces.pkl
+-a---          02/06/2025  6:52 AM           7470 l.py
+-a---          27/05/2025  1:59 PM            889 linreg.pkl
+-a---          29/05/2025  7:17 PM         175487 live_corr.png
+-a---          02/06/2025  6:29 AM           3705 live_env_occupancy.py
+-a---          28/05/2025  4:10 PM           3104 live_heatmap.py
+-a---          29/05/2025  4:20 PM          42085 live_lag_CO2_PM.png
+-a---          01/06/2025 10:02 AM           5485 live_occupancy_particles.py
+-a---          01/06/2025  9:26 AM           4631 live_particles.py
+-a---          04/07/2025  9:10 PM           3982 live_zone_corr.py
+-a---          29/05/2025  7:32 PM         269074 lstm_model.keras
+-a---          30/07/2025  2:12 PM          19705 new_lstm.py
+-a---          16/10/2025  5:00 AM            723 probe_kafka.py
+-a---          23/10/2025  9:04 AM          10157 python predict_once.py
+-a---          04/07/2025  9:11 PM      287309697 raw_v2.csv
+-a---          30/05/2025 11:39 AM           2891 save_raw.py
+-a---          30/07/2025  2:25 PM            272 scaler_X_min_NCD1.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_min_NCD10.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_min_NCD11.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_min_NCD12.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_min_NCD13.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_min_NCD14.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_min_NCD15.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_min_NCD16.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_min_NCD17.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_min_NCD18.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_min_NCD19.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_min_NCD2.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_min_NCD20.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_min_NCD21.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_min_NCD22.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_min_NCD23.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_min_NCD24.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_min_NCD25.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_min_NCD26.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_min_NCD27.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_min_NCD28.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_min_NCD29.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_min_NCD3.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_min_NCD30.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_min_NCD31.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_min_NCD32.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_min_NCD33.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_min_NCD34.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_min_NCD35.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_min_NCD36.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_min_NCD37.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_min_NCD38.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_min_NCD39.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_min_NCD4.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_min_NCD40.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_min_NCD41.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_min_NCD42.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_min_NCD43.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_min_NCD44.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_min_NCD45.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_min_NCD46.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_min_NCD5.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_min_NCD6.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_min_NCD7.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_min_NCD8.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_min_NCD9.npy
+-a---          16/10/2025  2:51 AM            312 scaler_X_min_Z1.npy
+-a---          16/10/2025  2:52 AM            312 scaler_X_min_Z2.npy
+-a---          16/10/2025  2:53 AM            312 scaler_X_min_Z3.npy
+-a---          16/10/2025  2:55 AM            312 scaler_X_min_Z4.npy
+-a---          23/10/2025  8:27 AM            528 scaler_X_min.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_scale_NCD1.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_scale_NCD10.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_scale_NCD11.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_scale_NCD12.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_scale_NCD13.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_scale_NCD14.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_scale_NCD15.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_scale_NCD16.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_scale_NCD17.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_scale_NCD18.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_scale_NCD19.npy
+-a---          30/07/2025  2:25 PM            272 scaler_X_scale_NCD2.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_scale_NCD20.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_scale_NCD21.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_scale_NCD22.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_scale_NCD23.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_scale_NCD24.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_scale_NCD25.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_scale_NCD26.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_scale_NCD27.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_scale_NCD28.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_scale_NCD29.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_scale_NCD3.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_scale_NCD30.npy
+-a---          30/07/2025  2:26 PM            272 scaler_X_scale_NCD31.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_scale_NCD32.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_scale_NCD33.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_scale_NCD34.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_scale_NCD35.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_scale_NCD36.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_scale_NCD37.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_scale_NCD38.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_scale_NCD39.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_scale_NCD4.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_scale_NCD40.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_scale_NCD41.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_scale_NCD42.npy
+-a---          30/07/2025  2:27 PM            272 scaler_X_scale_NCD43.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_scale_NCD44.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_scale_NCD45.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_scale_NCD46.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_scale_NCD5.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_scale_NCD6.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_scale_NCD7.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_scale_NCD8.npy
+-a---          30/07/2025  2:28 PM            272 scaler_X_scale_NCD9.npy
+-a---          16/10/2025  2:51 AM            312 scaler_X_scale_Z1.npy
+-a---          16/10/2025  2:52 AM            312 scaler_X_scale_Z2.npy
+-a---          16/10/2025  2:53 AM            312 scaler_X_scale_Z3.npy
+-a---          16/10/2025  2:55 AM            312 scaler_X_scale_Z4.npy
+-a---          23/10/2025  8:27 AM            528 scaler_X_scale.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_min_NCD1.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_min_NCD10.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_min_NCD11.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_min_NCD12.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_min_NCD13.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_min_NCD14.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_min_NCD15.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_min_NCD16.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_min_NCD17.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_min_NCD18.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_min_NCD19.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_min_NCD2.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_min_NCD20.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_min_NCD21.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_min_NCD22.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_min_NCD23.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_min_NCD24.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_min_NCD25.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_min_NCD26.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_min_NCD27.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_min_NCD28.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_min_NCD29.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_min_NCD3.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_min_NCD30.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_min_NCD31.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_min_NCD32.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_min_NCD33.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_min_NCD34.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_min_NCD35.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_min_NCD36.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_min_NCD37.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_min_NCD38.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_min_NCD39.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_min_NCD4.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_min_NCD40.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_min_NCD41.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_min_NCD42.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_min_NCD43.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_min_NCD44.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_min_NCD45.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_min_NCD46.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_min_NCD5.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_min_NCD6.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_min_NCD7.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_min_NCD8.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_min_NCD9.npy
+-a---          16/10/2025  2:51 AM            168 scaler_Y_min_Z1.npy
+-a---          16/10/2025  2:52 AM            168 scaler_Y_min_Z2.npy
+-a---          16/10/2025  2:53 AM            168 scaler_Y_min_Z3.npy
+-a---          16/10/2025  2:55 AM            168 scaler_Y_min_Z4.npy
+-a---          23/10/2025  8:27 AM            168 scaler_Y_min.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_scale_NCD1.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_scale_NCD10.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_scale_NCD11.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_scale_NCD12.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_scale_NCD13.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_scale_NCD14.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_scale_NCD15.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_scale_NCD16.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_scale_NCD17.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_scale_NCD18.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_scale_NCD19.npy
+-a---          30/07/2025  2:25 PM            160 scaler_Y_scale_NCD2.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_scale_NCD20.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_scale_NCD21.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_scale_NCD22.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_scale_NCD23.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_scale_NCD24.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_scale_NCD25.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_scale_NCD26.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_scale_NCD27.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_scale_NCD28.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_scale_NCD29.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_scale_NCD3.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_scale_NCD30.npy
+-a---          30/07/2025  2:26 PM            160 scaler_Y_scale_NCD31.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_scale_NCD32.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_scale_NCD33.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_scale_NCD34.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_scale_NCD35.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_scale_NCD36.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_scale_NCD37.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_scale_NCD38.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_scale_NCD39.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_scale_NCD4.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_scale_NCD40.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_scale_NCD41.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_scale_NCD42.npy
+-a---          30/07/2025  2:27 PM            160 scaler_Y_scale_NCD43.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_scale_NCD44.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_scale_NCD45.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_scale_NCD46.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_scale_NCD5.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_scale_NCD6.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_scale_NCD7.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_scale_NCD8.npy
+-a---          30/07/2025  2:28 PM            160 scaler_Y_scale_NCD9.npy
+-a---          16/10/2025  2:51 AM            168 scaler_Y_scale_Z1.npy
+-a---          16/10/2025  2:52 AM            168 scaler_Y_scale_Z2.npy
+-a---          16/10/2025  2:53 AM            168 scaler_Y_scale_Z3.npy
+-a---          16/10/2025  2:55 AM            168 scaler_Y_scale_Z4.npy
+-a---          23/10/2025  8:27 AM            168 scaler_Y_scale.npy
+-a---          16/10/2025  3:52 PM           4572 send_fake.py
+-a---          04/08/2025 10:55 PM     3710729727 sensor_all_data.csv
+-a---          30/05/2025 11:22 AM            110 state.pkl
+-a---          04/06/2025  7:36 PM             82 t
+-a---          04/06/2025 12:30 AM           9855 train_and_stream.py
+-a---          04/07/2025  9:10 PM           6251 train_offline_deeper.py
+-a---          04/07/2025  9:10 PM           5804 train_offline_hpo.py
+-a---          03/10/2025  5:58 PM           8126 train_offline.py
+-a---          23/10/2025  8:58 AM          16169 train_online.py
+-a---          16/10/2025  5:47 AM           3387 write_to_influx.py
+-a---          21/06/2025  6:47 PM       14808437 yolov5s.pt
+-a---          30/07/2025 11:43 AM           3426 Zone.py
+
+    Directory: C:\Users\Joswin\cleanroom-ai\.venv
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          25/06/2025 10:36 AM                bin
+d----          21/06/2025  7:55 PM                include
+d----          21/06/2025  7:55 PM                insightface
+d----          21/06/2025  7:06 PM                lib
+l----          21/06/2025  7:06 PM                lib64 -> 
+d----          21/06/2025  7:14 PM                share
+-a---          21/06/2025  7:06 PM             71 pyvenv.cfg
+
+    Directory: C:\Users\Joswin\cleanroom-ai\.venv\bin
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          21/06/2025  7:07 PM           2009 activate
+-a---          21/06/2025  7:07 PM            935 activate.csh
+-a---          21/06/2025  7:07 PM           2211 activate.fish
+-a---          21/06/2025  7:07 PM           9033 Activate.ps1
+-a---          25/06/2025 10:36 AM           7934 avro
+-a---          21/06/2025  7:47 PM            260 backend-test-tools
+-a---          21/06/2025  7:47 PM            263 check-model
+-a---          21/06/2025  7:47 PM            261 check-node
+-a---          21/06/2025  7:20 PM            240 cpuinfo
+-a---          21/06/2025  7:30 PM            254 cygdb
+-a---          21/06/2025  7:30 PM            275 cython
+-a---          21/06/2025  7:30 PM            255 cythonize
+-a---          21/06/2025  7:27 PM            250 f2py
+-a---          21/06/2025  7:30 PM            251 fonttools
+-a---          21/06/2025  7:47 PM            275 imageio_download_bin
+-a---          21/06/2025  7:47 PM            271 imageio_remove_bin
+-a---          21/06/2025  8:04 PM            269 insightface-cli
+-a---          21/06/2025  7:25 PM            239 isympy
+-a---          21/06/2025  7:30 PM            249 lsm2bin
+-a---          21/06/2025  7:30 PM            260 normalizer
+-a---          21/06/2025  7:27 PM            250 numpy-config
+-a---          21/06/2025  7:09 PM            255 pip
+-a---          21/06/2025  7:09 PM            255 pip3
+-a---          21/06/2025  7:09 PM            255 pip3.10
+-a---          21/06/2025  7:21 PM            255 proton
+-a---          21/06/2025  7:21 PM            255 proton-viewer
+-a---          21/06/2025  7:30 PM            248 pyftmerge
+-a---          21/06/2025  7:30 PM            249 pyftsubset
+la---          21/06/2025  7:06 PM              0 python -> 
+la---          21/06/2025  7:06 PM              0 python3 -> 
+la---          21/06/2025  7:06 PM              0 python3.10 -> 
+-a---          21/06/2025  7:19 PM            242 sz_split
+-a---          21/06/2025  7:19 PM            239 sz_wc
+-a---          21/06/2025  7:30 PM            253 tiff2fsspec
+-a---          21/06/2025  7:30 PM            253 tiffcomment
+-a---          21/06/2025  7:30 PM            241 tifffile
+-a---          21/06/2025  8:03 PM            263 torchfrtrace
+-a---          21/06/2025  8:03 PM            254 torchrun
+-a---          21/06/2025  7:21 PM            241 tqdm
+-a---          21/06/2025  7:30 PM            246 ttx
+-a---          21/06/2025  8:04 PM            260 ultralytics
+-a---          21/06/2025  8:04 PM            260 yolo
+
+    Directory: C:\Users\Joswin\cleanroom-ai\.venv\include
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          21/06/2025  7:55 PM                site
+
+    Directory: C:\Users\Joswin\cleanroom-ai\.venv\insightface
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          21/06/2025  7:55 PM                data
+d----          21/06/2025  7:55 PM                thirdparty
+
+    Directory: C:\Users\Joswin\cleanroom-ai\.venv\lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          21/06/2025  7:06 PM                python3.10
+
+    Directory: C:\Users\Joswin\cleanroom-ai\.venv\share
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          21/06/2025  7:14 PM                man
+
+    Directory: C:\Users\Joswin\cleanroom-ai\cleanroom_vision
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          21/06/2025  6:53 PM           6676 cctv_yolo.py
+-a---          21/06/2025  5:41 PM            597 download_buffalo.py
+-a---          21/06/2025  5:19 PM          14044 known_faces.pkl
+-a---          21/06/2025  2:51 PM            260 test_feed.py
+-a---          21/06/2025  4:19 PM        1039010 Tracker_screenshot_21.06.2025.png
+-a---          21/06/2025  2:56 PM       14808437 yolov5s.pt
+
+    Directory: C:\Users\Joswin\cleanroom-ai\influxdb2
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          31/05/2025  5:42 AM                engine
+-a---          02/06/2025  5:51 AM         131072 influxd.bolt
+-a---          31/05/2025  5:27 AM         122880 influxd.sqlite
+
+    Directory: C:\Users\Joswin\cleanroom-ai\influxdb2\engine
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          31/05/2025  5:42 AM                data
+d----          31/05/2025  5:27 AM                replicationq
+d----          31/05/2025  5:42 AM                wal
+
+    Directory: C:\Users\Joswin\cleanroom-ai\kt_dir
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          19/06/2025  8:28 PM                zone_Z1
+d----          20/06/2025  1:33 PM                zone_Z2
+d----          20/06/2025  1:39 PM                zone_Z3
+d----          20/06/2025  1:47 PM                zone_Z4
+
+    Directory: C:\Users\Joswin\cleanroom-ai\kt_dir\zone_Z1
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          19/06/2025  8:13 PM                trial_0
+d----          19/06/2025  8:14 PM                trial_1
+d----          19/06/2025  8:27 PM                trial_2
+d----          19/06/2025  8:28 PM                trial_3
+d----          19/06/2025  8:29 PM                trial_4
+-a---          19/06/2025  8:29 PM           1651 oracle.json
+-a---          19/06/2025  8:29 PM              2 tuner0.json
+
+    Directory: C:\Users\Joswin\cleanroom-ai\kt_dir\zone_Z2
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          20/06/2025  1:30 PM                trial_0
+d----          20/06/2025  1:31 PM                trial_1
+d----          20/06/2025  1:32 PM                trial_2
+d----          20/06/2025  1:33 PM                trial_3
+d----          20/06/2025  1:34 PM                trial_4
+-a---          20/06/2025  1:34 PM           1651 oracle.json
+-a---          20/06/2025  1:34 PM              2 tuner0.json
+
+    Directory: C:\Users\Joswin\cleanroom-ai\kt_dir\zone_Z3
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          20/06/2025  1:37 PM                trial_0
+d----          20/06/2025  1:38 PM                trial_1
+d----          20/06/2025  1:38 PM                trial_2
+d----          20/06/2025  1:39 PM                trial_3
+d----          20/06/2025  1:40 PM                trial_4
+-a---          20/06/2025  1:40 PM           1651 oracle.json
+-a---          20/06/2025  1:40 PM              2 tuner0.json
+
+    Directory: C:\Users\Joswin\cleanroom-ai\kt_dir\zone_Z4
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          20/06/2025  1:45 PM                trial_0
+d----          20/06/2025  1:46 PM                trial_1
+d----          20/06/2025  1:47 PM                trial_2
+d----          20/06/2025  1:47 PM                trial_3
+d----          20/06/2025  1:48 PM                trial_4
+-a---          20/06/2025  1:48 PM           1651 oracle.json
+-a---          20/06/2025  1:48 PM              2 tuner0.json
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:12 PM                NCD1
+d----          30/07/2025  2:12 PM                NCD10
+d----          30/07/2025  2:12 PM                NCD11
+d----          30/07/2025  2:12 PM                NCD12
+d----          30/07/2025  2:13 PM                NCD13
+d----          30/07/2025  2:13 PM                NCD14
+d----          30/07/2025  2:13 PM                NCD15
+d----          30/07/2025  2:13 PM                NCD16
+d----          30/07/2025  2:13 PM                NCD17
+d----          30/07/2025  2:13 PM                NCD18
+d----          30/07/2025  2:13 PM                NCD19
+d----          30/07/2025  2:13 PM                NCD2
+d----          30/07/2025  2:13 PM                NCD20
+d----          30/07/2025  2:13 PM                NCD21
+d----          30/07/2025  2:13 PM                NCD22
+d----          30/07/2025  2:13 PM                NCD23
+d----          30/07/2025  2:13 PM                NCD24
+d----          30/07/2025  2:14 PM                NCD25
+d----          30/07/2025  2:14 PM                NCD26
+d----          30/07/2025  2:14 PM                NCD27
+d----          30/07/2025  2:14 PM                NCD28
+d----          30/07/2025  2:14 PM                NCD29
+d----          30/07/2025  2:14 PM                NCD3
+d----          30/07/2025  2:14 PM                NCD30
+d----          30/07/2025  2:14 PM                NCD31
+d----          30/07/2025  2:14 PM                NCD32
+d----          30/07/2025  2:14 PM                NCD33
+d----          30/07/2025  2:14 PM                NCD34
+d----          30/07/2025  2:14 PM                NCD35
+d----          30/07/2025  2:14 PM                NCD36
+d----          30/07/2025  2:15 PM                NCD37
+d----          30/07/2025  2:15 PM                NCD38
+d----          30/07/2025  2:15 PM                NCD39
+d----          30/07/2025  2:15 PM                NCD4
+d----          30/07/2025  2:15 PM                NCD40
+d----          30/07/2025  2:15 PM                NCD41
+d----          30/07/2025  2:15 PM                NCD42
+d----          30/07/2025  2:15 PM                NCD43
+d----          30/07/2025  2:15 PM                NCD44
+d----          30/07/2025  2:15 PM                NCD45
+d----          30/07/2025  2:15 PM                NCD46
+d----          30/07/2025  2:15 PM                NCD5
+d----          30/07/2025  2:16 PM                NCD6
+d----          30/07/2025  2:16 PM                NCD7
+d----          30/07/2025  2:16 PM                NCD8
+d----          30/07/2025  2:16 PM                NCD9
+d----          19/06/2025  9:43 PM                Z1
+d----          20/06/2025  1:34 PM                Z2
+d----          20/06/2025  1:40 PM                Z3
+d----          20/06/2025  1:48 PM                Z4
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD1
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:25 PM                train
+d----          30/07/2025  2:25 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD10
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:25 PM                train
+d----          30/07/2025  2:25 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD11
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:25 PM                train
+d----          30/07/2025  2:25 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD12
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:25 PM                train
+d----          30/07/2025  2:25 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD13
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:25 PM                train
+d----          30/07/2025  2:25 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD14
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:25 PM                train
+d----          30/07/2025  2:25 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD15
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:25 PM                train
+d----          30/07/2025  2:25 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD16
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:25 PM                train
+d----          30/07/2025  2:25 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD17
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:25 PM                train
+d----          30/07/2025  2:25 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD18
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:25 PM                train
+d----          30/07/2025  2:25 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD19
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:25 PM                train
+d----          30/07/2025  2:25 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD2
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:25 PM                train
+d----          30/07/2025  2:26 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD20
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:26 PM                train
+d----          30/07/2025  2:26 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD21
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:26 PM                train
+d----          30/07/2025  2:26 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD22
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:26 PM                train
+d----          30/07/2025  2:26 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD23
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:26 PM                train
+d----          30/07/2025  2:26 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD24
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:26 PM                train
+d----          30/07/2025  2:26 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD25
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:26 PM                train
+d----          30/07/2025  2:26 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD26
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:26 PM                train
+d----          30/07/2025  2:26 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD27
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:26 PM                train
+d----          30/07/2025  2:26 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD28
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:26 PM                train
+d----          30/07/2025  2:26 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD29
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:26 PM                train
+d----          30/07/2025  2:26 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD3
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:26 PM                train
+d----          30/07/2025  2:26 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD30
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:26 PM                train
+d----          30/07/2025  2:26 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD31
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:26 PM                train
+d----          30/07/2025  2:26 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD32
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:27 PM                train
+d----          30/07/2025  2:27 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD33
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:27 PM                train
+d----          30/07/2025  2:27 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD34
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:27 PM                train
+d----          30/07/2025  2:27 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD35
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:27 PM                train
+d----          30/07/2025  2:27 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD36
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:27 PM                train
+d----          30/07/2025  2:27 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD37
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:27 PM                train
+d----          30/07/2025  2:27 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD38
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:27 PM                train
+d----          30/07/2025  2:27 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD39
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:27 PM                train
+d----          30/07/2025  2:27 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD4
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:27 PM                train
+d----          30/07/2025  2:27 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD40
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:27 PM                train
+d----          30/07/2025  2:27 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD41
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:27 PM                train
+d----          30/07/2025  2:27 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD42
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:27 PM                train
+d----          30/07/2025  2:27 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD43
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:27 PM                train
+d----          30/07/2025  2:28 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD44
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:28 PM                train
+d----          30/07/2025  2:28 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD45
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:28 PM                train
+d----          30/07/2025  2:28 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD46
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:28 PM                train
+d----          30/07/2025  2:28 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD5
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:28 PM                train
+d----          30/07/2025  2:28 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD6
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:28 PM                train
+d----          30/07/2025  2:28 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD7
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:28 PM                train
+d----          30/07/2025  2:28 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD8
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:28 PM                train
+d----          30/07/2025  2:28 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\NCD9
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          30/07/2025  2:28 PM                train
+d----          30/07/2025  2:28 PM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\Z1
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          16/10/2025  2:51 AM                train
+d----          16/10/2025  2:51 AM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\Z2
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          16/10/2025  2:52 AM                train
+d----          16/10/2025  2:52 AM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\Z3
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          16/10/2025  2:53 AM                train
+d----          16/10/2025  2:53 AM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\logs\Z4
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          16/10/2025  2:55 AM                train
+d----          16/10/2025  2:55 AM                validation
+
+    Directory: C:\Users\Joswin\cleanroom-ai\schema
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          30/05/2025 10:35 PM            532 particle_prediction.avsc
+-a---          29/05/2025  1:29 PM            715 sensor_event_legacy.avsc
+-a---          30/05/2025 11:11 AM           1345 sensor_event.avsc
+
+    Directory: C:\Users\Joswin\cleanroom-ai\venv
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          29/07/2025  1:30 PM                Include
+d----          29/07/2025  1:30 PM                Lib
+d----          16/10/2025  4:36 AM                Scripts
+-a---          29/07/2025  1:30 PM            321 pyvenv.cfg
+
+    Directory: C:\Users\Joswin\cleanroom-ai\venv\Lib
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          16/10/2025  4:36 AM                site-packages
+
+    Directory: C:\Users\Joswin\cleanroom-ai\venv\Scripts
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          29/07/2025  1:30 PM           2073 activate
+-a---          29/07/2025  1:30 PM           1002 activate.bat
+-a---          29/07/2025  1:30 PM          24183 Activate.ps1
+-a---          03/10/2025  4:21 PM           8272 avro
+-a---          03/10/2025  6:38 PM         108373 avro.exe
+-a---          29/07/2025  1:30 PM            393 deactivate.bat
+-a---          16/10/2025  4:36 AM         108373 dotenv.exe
+-a---          29/07/2025  1:31 PM         107894 f2py.exe
+-a---          29/07/2025  1:33 PM         107925 import_pb_to_tensorboard.exe
+-a---          29/07/2025  1:31 PM         107892 markdown_py.exe
+-a---          29/07/2025  1:32 PM         107898 markdown-it.exe
+-a---          29/07/2025  1:31 PM         107904 normalizer.exe
+-a---          29/07/2025  1:31 PM         107894 numpy-config.exe
+-a---          03/10/2025  4:20 PM         108409 pip.exe
+-a---          03/10/2025  4:20 PM         108409 pip3.11.exe
+-a---          03/10/2025  4:20 PM         108409 pip3.exe
+-a---          29/07/2025  1:31 PM         107893 pygmentize.exe
+-a---          29/07/2025  1:30 PM         268168 python.exe
+-a---          29/07/2025  1:30 PM         256392 pythonw.exe
+-a---          29/07/2025  1:33 PM         107916 saved_model_cli.exe
+-a---          29/07/2025  1:33 PM         107901 tensorboard.exe
+-a---          29/07/2025  1:33 PM         107926 tf_upgrade_v2.exe
+-a---          29/07/2025  1:33 PM         107914 tflite_convert.exe
+-a---          29/07/2025  1:33 PM         107914 toco.exe
+-a---          29/07/2025  1:31 PM         107886 wheel.exe
+
+    Directory: C:\Users\Joswin\cleanroom-ai\__pycache__
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          12/06/2025  9:18 AM           1441 influx_writer.cpython-310.pyc
+-a---          23/10/2025  8:50 AM           2588 influx_writer.cpython-311.pyc
+-a---          21/06/2025  4:59 PM           7871 train_online.cpython-310.pyc
+
+

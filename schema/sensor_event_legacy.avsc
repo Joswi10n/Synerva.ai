@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "SensorEventLegacy",
+  "namespace": "cleanroom",
+  "fields": [
+    { "name": "zone",          "type": "string" },
+    { "name": "timestamp",     "type": "long",    "logicalType": "timestamp-millis" },
+    { "name": "pm01",          "type": "double" },
+    { "name": "pm025",         "type": "double" },
+    { "name": "pm04",          "type": "double" },
+    { "name": "pm10",          "type": "double" },
+    { "name": "temperature",   "type": "double" },
+    { "name": "humidity",      "type": "double" },
+    { "name": "pressure",      "type": "double" },
+    { "name": "co2",           "type": "double" },
+    { "name": "particle_size", "type": "double" }
+  ]
+}

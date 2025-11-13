@@ -1,0 +1,35 @@
+{
+  "type": "record",
+  "name": "SensorEvent",
+  "namespace": "cleanroom",
+  "fields": [
+    { "name": "zone",           "type": "string" },
+    { "name": "timestamp",      "type": { "type":"long", "logicalType":"timestamp-millis" } },
+
+    { "name": "pm05",           "type": "double" },
+    { "name": "pm1",            "type": "double" },
+    { "name": "pm025",          "type": "double" },
+    { "name": "pm04",           "type": "double" },
+    { "name": "pm10",           "type": "double" },
+
+    { "name": "temperature",    "type": "double" },
+    { "name": "humidity",       "type": "double" },
+    { "name": "pressure",       "type": "double" },
+    { "name": "co2",            "type": "double" },
+    { "name": "particle_size",  "type": "double" },
+
+    { "name": "occupancy",      "type": "int" },
+
+    { "name": "wall_particles",   "type": "double" },
+    { "name": "floor_particles",  "type": "double" },
+    { "name": "person_particles", "type": "double" },
+
+    { "name": "alert_pm05",   "type": "boolean" },
+    { "name": "alert_pm1",    "type": "boolean" },
+    { "name": "alert_pm025",  "type": "boolean" },
+    { "name": "alert_pm04",   "type": "boolean" },
+    { "name": "alert_pm10",   "type": "boolean" },
+
+    { "name": "limits",       "type": { "type": "map", "values": "long" } }
+  ]
+}

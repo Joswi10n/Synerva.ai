@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "ParticlePrediction",
+  "namespace": "cleanroom",
+  "fields": [
+    { "name": "zone",           "type": "string" },
+    { "name": "timestamp",      "type": "long"   },
+    { "name": "pm05_pred",      "type": "float"  },
+    { "name": "pm1_pred",       "type": "float"  },
+    { "name": "pm025_pred",     "type": "float"  },
+    { "name": "pm04_pred",      "type": "float"  },
+    { "name": "pm10_pred",      "type": "float"  },
+    { "name": "model_version",  "type": "string" }
+  ]
+}
